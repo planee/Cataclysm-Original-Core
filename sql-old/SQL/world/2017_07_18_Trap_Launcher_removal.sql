@@ -1,0 +1,2 @@
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('82948', 'spell_hun_trap_launcher');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('82945', 'spell_hun_trap_launcher');

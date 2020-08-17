@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('89603', 'spell_warl_cremation');DELETE FROM `spell_proc_event` WHERE entry IN (85103, 85104);INSERT INTO `spell_proc_event` VALUES ('85103', '0', '5', '2097152', '0', '0', '0', '0', '0', '0', '0');INSERT INTO `spell_proc_event` VALUES ('85104', '0', '5', '2097152', '0', '0', '0', '0', '0', '0', '0');

@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('105792', 'spell_sha_lava_lash_trigger');

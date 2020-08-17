@@ -1,0 +1,1 @@
+UPDATE `spell_bonus_data` SET `direct_bonus`='0', `comments`='Gift of the Earthmother Rejuvenation' WHERE `entry` = 64801;

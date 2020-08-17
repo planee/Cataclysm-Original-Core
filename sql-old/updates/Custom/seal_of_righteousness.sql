@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('20154', 'spell_pal_seal_of_righteousness');

@@ -1,0 +1,2 @@
+DELETE from creature_template_addon where entry = 10556; -- delete from creature_template_addon, handled by script 
+UPDATE creature_template set scriptname = 'npc_lazy_peon', AIName = '' WHERE entry = 10556; -- remove old smartai, and add scriptname  

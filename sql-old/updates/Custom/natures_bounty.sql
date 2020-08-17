@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('774', 'spell_dru_rejuv');

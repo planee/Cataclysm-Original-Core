@@ -1,0 +1,1 @@
+UPDATE spell_proc_event SET SpellFamilyMask1 = 64 WHERE entry IN(17796, 17793, 17801);

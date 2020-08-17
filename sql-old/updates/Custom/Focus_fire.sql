@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('82692', 'spell_hun_focus_fire');

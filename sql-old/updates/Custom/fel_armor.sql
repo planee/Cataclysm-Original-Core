@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('28176', 'spell_warl_fel_armor');

@@ -1,0 +1,1 @@
+ALTER TABLE `guild` ADD `ChallengeCount` INT( 32 ) UNSIGNED NOT NULL;

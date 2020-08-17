@@ -1,0 +1,1 @@
+DELETE FROM spell_proc_event WHERE entry IN(16487, 16489, 16492);

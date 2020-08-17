@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('528', 'spell_pri_cure_disease');

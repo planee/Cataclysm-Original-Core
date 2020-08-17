@@ -1,0 +1,2 @@
+UPDATE creature set equipment_id = 0 WHERE equipment_id not in(select entry from creature_equip_template);
+UPDATE creature_template set equipment_id = 0 WHERE equipment_id not in(select entry from creature_equip_template);

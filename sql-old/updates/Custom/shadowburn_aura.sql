@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('29341', 'spell_warl_shadowburn_aura');

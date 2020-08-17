@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('1978', 'spell_hun_serpent_sting');

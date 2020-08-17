@@ -1,0 +1,1 @@
+INSERT INTO `spell_bonus_data` VALUES ('6807', '0', '0', '0.19', '0', 'Maul');

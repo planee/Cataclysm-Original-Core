@@ -1,0 +1,1 @@
+UPDATE reference_loot_template SET `groupid` = 1 WHERE `entry` = 552651;

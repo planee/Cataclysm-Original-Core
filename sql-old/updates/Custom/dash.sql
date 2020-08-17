@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('1850', 'spell_dru_dash');

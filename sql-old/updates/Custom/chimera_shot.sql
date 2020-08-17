@@ -1,0 +1,1 @@
+INSERT INTO `spell_bonus_data` VALUES ('53209', '0', '0', '0.732', '0', 'Flame orb-triggered');

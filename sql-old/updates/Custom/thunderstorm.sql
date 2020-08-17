@@ -1,0 +1,1 @@
+INSERT INTO spell_script_names VALUES (51490, "spell_sha_thunderstorm");

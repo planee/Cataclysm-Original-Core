@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('22812', 'spell_dru_barkskin');

@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('85256', 'spell_pal_templar_s_verdict');

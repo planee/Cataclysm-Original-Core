@@ -1,0 +1,1 @@
+UPDATE spell_script_names SET ScriptName="spell_pri_power_word_shield" WHERE spell_id=-17;

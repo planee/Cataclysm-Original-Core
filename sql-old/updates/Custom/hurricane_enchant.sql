@@ -1,0 +1,1 @@
+INSERT INTO `spell_proc_event` VALUES ('94747', '0', '0', '0', '0', '0', '0', '0', '0', '0', '45');

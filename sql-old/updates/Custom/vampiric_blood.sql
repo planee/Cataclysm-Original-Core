@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('55233', 'spell_dk_vampiric_blood');

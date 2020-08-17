@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('527', 'spell_pri_dispel_magic');

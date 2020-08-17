@@ -1,0 +1,1 @@
+UPDATE spell_proc_event SET CustomChance=15, ppmRate=0 WHERE entry=20165;

@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('78675', 'spell_dru_beam');

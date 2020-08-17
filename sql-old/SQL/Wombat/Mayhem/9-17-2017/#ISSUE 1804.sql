@@ -1,0 +1,1 @@
+UPDATE item_template SET spellcooldown_1 = -1 WHERE entry = 35908;

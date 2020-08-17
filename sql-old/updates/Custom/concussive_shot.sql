@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('5116', 'spell_hun_concussive');

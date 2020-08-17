@@ -1,0 +1,13 @@
+DELETE FROM `spell_group` WHERE `spell_id` IN (79102,79101,53137,53138,19506,30802,30808);
+INSERT INTO `spell_group` VALUES 
+(1253,79102),
+(1253,79101),
+(1253,53137),
+(1253,53138),
+(1253,19506),
+(1253,30802),
+(1253,30808);
+
+DELETE FROM `spell_group_stack_rules` WHERE group_id = 1253;
+INSERT INTO `spell_group_stack_rules` VALUES
+(1253, 3);

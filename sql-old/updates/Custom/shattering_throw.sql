@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('64380', 'spell_warr_shattering_throw');

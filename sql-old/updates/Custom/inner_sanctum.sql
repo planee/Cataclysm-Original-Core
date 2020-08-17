@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('588', 'spell_pri_inner_fire');

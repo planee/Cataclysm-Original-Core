@@ -1,0 +1,2 @@
+UPDATE `creature_template` SET `unit_flags` = 0x2|0x4|0x2000000, ScriptName="npc_fungal_growth_two" WHERE `entry` = 43484;
+UPDATE `creature_template` SET `unit_flags` = 0x2|0x4|0x2000000, ScriptName="npc_fungal_growth_one" WHERE `entry` = 43497;

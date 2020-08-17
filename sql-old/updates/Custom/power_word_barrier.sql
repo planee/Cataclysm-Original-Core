@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `unit_flags` = 0x2|0x4|0x100|0x200|0x2000000, ScriptName="npc_barrier" WHERE `entry` = 33248;

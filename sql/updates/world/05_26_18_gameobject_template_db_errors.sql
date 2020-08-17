@@ -1,0 +1,1 @@
+UPDATE gameobject_template SET `type` = 6 WHERE `entry` in (203208, 202619, 202968, 202969, 203197, 206724); 

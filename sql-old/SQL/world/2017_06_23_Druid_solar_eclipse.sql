@@ -1,0 +1,1 @@
+DELETE FROM `spell_script_names` WHERE  `spell_id`=94338 AND `ScriptName`='spell_dru_solar_eclipse';

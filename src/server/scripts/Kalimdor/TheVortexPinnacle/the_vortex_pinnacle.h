@@ -1,0 +1,86 @@
+/*
+ * Copyright (C) 2008-2013 TrinityCore <http://www.trinitycore.org/>
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+ 
+#ifndef DEF_VORTEX_PINNACLE_H
+#define DEF_VORTEX_PINNACLE_H
+
+const Position PastVortexSpawnPos[2]
+{
+    { -313.26f, -28.47f, 626.23f, 2.84f },
+    { -381.66f,  38.43f, 625.29f, 5.02f },
+};
+
+const Position twisterPos[8] =
+{
+    { -1213.09f, 37.58f, 734.17f, 0.0f },
+    { -1208.80f, 54.49f, 734.17f, 0.0f },
+    { -1219.45f, 68.33f, 734.17f, 0.0f },
+};
+
+const Position EranCenterPos = { -719.97f, 4.33f, 635.67f, 5.4f };
+const float orientations[4]  = { 5.70f, 2.54f, 0.84f, 4.44f };
+
+enum Data
+{
+    DATA_ERTAN      = 1,
+    DATA_ALTAIRUS   = 2,
+    DATA_ASAAD      = 3,
+
+    DATA_GOLDEN_ORB = 4,
+
+    // Misc
+    ACTION_INIT_SLIPSTREAM_PATH,
+    TYPE_HOWLING_GALE,
+};
+
+enum CreatureIds
+{
+    NPC_GRAND_VIZIER_ERTAN     = 43878,
+    NPC_ALTAIRUS               = 43873,
+    NPC_ASAAD                  = 43875,
+    NPC_SLIPSTREAM             = 45455,
+    NPC_FALL_CATCHER           = 48165,
+    NPC_ERTAN_VORTEX           = 46007,
+    NPC_TWISTER                = 47342,
+    NPC_AIR_CURRENT            = 47305,
+    NPC_UTRIGGER               = 150004,
+    NPC_STAR_SKY               = 45932,
+};
+
+enum GameObjectIds
+{
+    GO_MAGIC_BRAZIER            = 207408,
+};
+
+const std::vector<uint32> bossData =
+{
+    DATA_ERTAN,
+    DATA_ALTAIRUS,
+    DATA_ASAAD,
+};
+
+template<class AI>
+CreatureAI* GetInstanceAI(Creature* creature)
+{
+    if (InstanceMap* instance = creature->GetMap()->ToInstanceMap())
+        if (instance->GetInstanceScript())
+            if (instance->GetScriptId() == sObjectMgr->GetScriptId("instance_the_vortex_pinnacle"))
+                return new AI(creature);
+    return NULL;
+}
+
+#endif

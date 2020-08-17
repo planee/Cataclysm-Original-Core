@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('84963', 'spell_pal_inquisition');

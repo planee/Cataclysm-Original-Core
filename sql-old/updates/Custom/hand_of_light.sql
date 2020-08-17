@@ -1,0 +1,2 @@
+INSERT INTO `spell_bonus_data` VALUES ('96172', '0', '0', '0', '0', 'Hand of Light - Ret Mastery');
+INSERT INTO `spell_proc_event` VALUES ('76672', '0', '0', '0', '163840', '8192', '0', '0', '0', '0', '0');

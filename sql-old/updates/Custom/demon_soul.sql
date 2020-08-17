@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('77801', 'spell_warl_demon_soul');

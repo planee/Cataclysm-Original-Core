@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('17962', 'spell_warl_conflagrate');

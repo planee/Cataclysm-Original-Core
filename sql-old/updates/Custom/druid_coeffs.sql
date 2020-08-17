@@ -1,0 +1,13 @@
+UPDATE spell_bonus_data SET dot_bonus = 0.13 WHERE entry = 5570;
+UPDATE spell_bonus_data SET direct_bonus = 0.18, dot_bonus=0.18 WHERE entry = 8921;
+UPDATE spell_bonus_data SET direct_bonus = 0.247 WHERE entry = 50288;
+UPDATE spell_bonus_data SET direct_bonus = 1.231 WHERE entry = 2912;
+INSERT INTO `spell_bonus_data` VALUES ('78674', '1.228', '0', '0', '0', 'Starsurge');
+INSERT INTO `spell_bonus_data` VALUES ('78777', '0.6032', '0', '0', '0', 'Wild Mushroom');
+UPDATE spell_bonus_data SET direct_bonus = 0.879 WHERE entry = 5176;
+UPDATE spell_bonus_data SET direct_bonus = 0.806 WHERE entry = 5185;
+UPDATE spell_bonus_data SET direct_bonus = 0.284, dot_bonus = 0.0234 WHERE entry = 33763;
+UPDATE spell_bonus_data SET direct_bonus = 0 WHERE entry = 33778;
+UPDATE spell_bonus_data SET direct_bonus = 0.266 WHERE entry = 50464;
+UPDATE spell_bonus_data SET direct_bonus = 0.2936, dot_bonus=0.0296 WHERE entry = 8936;
+UPDATE spell_bonus_data SET dot_bonus = 0.134 WHERE entry = 774;

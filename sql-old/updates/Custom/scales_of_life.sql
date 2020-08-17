@@ -1,0 +1,2 @@
+INSERT INTO `spell_bonus_data` VALUES ('96880', '0', '0', '0', '0', 'Tipping of the Scales - Scales of life');
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (96880, 'spell_gen_scales_of_life');

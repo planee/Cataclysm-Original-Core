@@ -1,0 +1,1 @@
+UPDATE spell_proc_event SET SpellFamilyMask0 = 2147483648 WHERE entry=58677;

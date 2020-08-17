@@ -1,0 +1,1 @@
+UPDATE spell_proc_event SET SpellFamilyMask2 = 0x00010010 WHERE entry IN(51556, 51557, 51558);

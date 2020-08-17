@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpcodeTools434", "OpcodeTools434\OpcodeTools434.vcxproj", "{20EFC630-5442-4018-8DE8-1E27A8A5564D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Debug|x64.ActiveCfg = Debug|x64
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Debug|x64.Build.0 = Debug|x64
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Debug|x86.ActiveCfg = Debug|Win32
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Debug|x86.Build.0 = Debug|Win32
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Release|x64.ActiveCfg = Release|x64
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Release|x64.Build.0 = Release|x64
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Release|x86.ActiveCfg = Release|Win32
+		{20EFC630-5442-4018-8DE8-1E27A8A5564D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3F23D8-26D8-46D4-A577-564DC938EFEF}
+	EndGlobalSection
+EndGlobal

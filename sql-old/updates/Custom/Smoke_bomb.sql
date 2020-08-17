@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('76577', 'spell_rog_smoke');

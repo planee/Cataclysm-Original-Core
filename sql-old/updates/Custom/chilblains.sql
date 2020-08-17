@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('45524', 'spell_dk_chilblains');

@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('5676', 'spell_warl_searing_pain');

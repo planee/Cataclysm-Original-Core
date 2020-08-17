@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('22842', 'spell_dru_frenzied_regen');

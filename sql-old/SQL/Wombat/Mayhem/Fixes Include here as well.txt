@@ -1,0 +1,79 @@
+*https://wowzealot.com/bugtracker/issue/1944/Ashyen-and-Keleth - 
+
+DELETE FROM `creature_text` WHERE `entry` = 17901;
+DELETE FROM `creature_text` WHERE `entry` = 17900;
+
+*https://wowzealot.com/bugtracker/issue/1920/Report-for-Tryouts
+
+UPDATE `quest_template` SET `PrevQuestId` = 28349, `NextQuestId` = 24567, `ExclusiveGroup` = 0 WHERE `Id` = 14071;
+
+*https://wowzealot.com/bugtracker/issue/1953/Sharth-Voldoun-NPC---Quest-item-not-dropping
+
+REPLACE INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `lootmode`, `groupid`, `mincountOrRef`, `maxcount`) VALUES (18554, 29912, 85, 1, 0, 1, 1);
+
+*https://wowzealot.com/bugtracker/issue/1947/Ango%27rosh-Souleater
+
+REPLACE INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (18121, 0, 3, 0, 11, 0, 100, 0, 0, 0, 0, 0, 11, 35194, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 'Ango\'rosh Souleater - Respawn cast Shadowform');
+---------------------------------------------------------------PAID 9/16/2017-------------------------------------------------------------------------------------------------------
+----------------------START NEW----------------------------------
+
+*https://wowzealot.com/bugtracker/issue/1850/Quest%3A-Save-Krennan-Aranas
+**Fixed issue where you get dismounted off the horse, there are some worgen around the area that will attack you, others are in phase 2, not sure how it works exactly but you can test and tell me**
+
+REPLACE INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (35905, 0, 8, 0, 40, 0, 100, 0, 12, 359050, 0, 0, 51, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 'Greymane\'s Horse - On waypoint reach - Remove Horse');
+
+
+*https://wowzealot.com/bugtracker/issue/1846/Quest%3A-Evacuate-the-Merchant-Square
+
+REPLACE INTO `quest_template` (`Id`, `Method`, `Note`, `Status`, `Level`, `MinLevel`, `MaxLevel`, `ZoneOrSort`, `Type`, `SuggestedPlayers`, `LimitTime`, `RequiredClasses`, `RequiredRaces`, `RequiredSkillId`, `RequiredSkillPoints`, `RequiredFactionId1`, `RequiredFactionId2`, `RequiredFactionValue1`, `RequiredFactionValue2`, `RequiredMinRepFaction`, `RequiredMaxRepFaction`, `RequiredMinRepValue`, `RequiredMaxRepValue`, `PrevQuestId`, `NextQuestId`, `ExclusiveGroup`, `NextQuestIdChain`, `RewardXPId`, `RewardOrRequiredMoney`, `RewardMoneyMaxLevel`, `RewardSpell`, `RewardSpellCast`, `RewardHonor`, `RewardHonorMultiplier`, `RewardMailTemplateId`, `RewardMailDelay`, `SourceItemId`, `SourceItemCount`, `SourceSpellId`, `Flags`, `SpecialFlags`, `MinimapTargetMark`, `RewardTitleId`, `RequiredPlayerKills`, `RewardTalents`, `RewardArenaPoints`, `RewardSkillId`, `RewardSkillPoints`, `RewardReputationMask`, `QuestGiverPortrait`, `QuestTurnInPortrait`, `RewardItemId1`, `RewardItemId2`, `RewardItemId3`, `RewardItemId4`, `RewardItemCount1`, `RewardItemCount2`, `RewardItemCount3`, `RewardItemCount4`, `RewardChoiceItemId1`, `RewardChoiceItemId2`, `RewardChoiceItemId3`, `RewardChoiceItemId4`, `RewardChoiceItemId5`, `RewardChoiceItemId6`, `RewardChoiceItemCount1`, `RewardChoiceItemCount2`, `RewardChoiceItemCount3`, `RewardChoiceItemCount4`, `RewardChoiceItemCount5`, `RewardChoiceItemCount6`, `RewardFactionId1`, `RewardFactionId2`, `RewardFactionId3`, `RewardFactionId4`, `RewardFactionId5`, `RewardFactionValueId1`, `RewardFactionValueId2`, `RewardFactionValueId3`, `RewardFactionValueId4`, `RewardFactionValueId5`, `RewardFactionValueIdOverride1`, `RewardFactionValueIdOverride2`, `RewardFactionValueIdOverride3`, `RewardFactionValueIdOverride4`, `RewardFactionValueIdOverride5`, `PointMapId`, `PointX`, `PointY`, `PointOption`, `Title`, `Objectives`, `Details`, `EndText`, `OfferRewardText`, `RequestItemsText`, `CompletedText`, `RequiredNpcOrGo1`, `RequiredNpcOrGo2`, `RequiredNpcOrGo3`, `RequiredNpcOrGo4`, `RequiredNpcOrGoCount1`, `RequiredNpcOrGoCount2`, `RequiredNpcOrGoCount3`, `RequiredNpcOrGoCount4`, `RequiredSourceItemId1`, `RequiredSourceItemId2`, `RequiredSourceItemId3`, `RequiredSourceItemId4`, `RequiredSourceItemCount1`, `RequiredSourceItemCount2`, `RequiredSourceItemCount3`, `RequiredSourceItemCount4`, `RequiredItemId1`, `RequiredItemId2`, `RequiredItemId3`, `RequiredItemId4`, `RequiredItemId5`, `RequiredItemId6`, `RequiredItemCount1`, `RequiredItemCount2`, `RequiredItemCount3`, `RequiredItemCount4`, `RequiredItemCount5`, `RequiredItemCount6`, `RequiredSpell`, `RequiredSpellCast1`, `RequiredSpellCast2`, `RequiredSpellCast3`, `RequiredSpellCast4`, `ObjectiveText1`, `ObjectiveText2`, `ObjectiveText3`, `ObjectiveText4`, `RewardCurrencyId1`, `RewardCurrencyId2`, `RewardCurrencyId3`, `RewardCurrencyId4`, `RewardCurrencyCount1`, `RewardCurrencyCount2`, `RewardCurrencyCount3`, `RewardCurrencyCount4`, `RequiredCurrencyId1`, `RequiredCurrencyId2`, `RequiredCurrencyId3`, `RequiredCurrencyId4`, `RequiredCurrencyCount1`, `RequiredCurrencyCount2`, `RequiredCurrencyCount3`, `RequiredCurrencyCount4`, `QuestGiverTextWindow`, `QuestGiverTargetName`, `QuestTurnTextWindow`, `QuestTurnTargetName`, `SoundAccept`, `SoundTurnIn`, `DetailsEmote1`, `DetailsEmote2`, `DetailsEmote3`, `DetailsEmote4`, `DetailsEmoteDelay1`, `DetailsEmoteDelay2`, `DetailsEmoteDelay3`, `DetailsEmoteDelay4`, `EmoteOnIncomplete`, `EmoteOnComplete`, `OfferRewardEmote1`, `OfferRewardEmote2`, `OfferRewardEmote3`, `OfferRewardEmote4`, `OfferRewardEmoteDelay1`, `OfferRewardEmoteDelay2`, `OfferRewardEmoteDelay3`, `OfferRewardEmoteDelay4`, `StartScript`, `CompleteScript`, `WDBVerified`) VALUES (14091, 2, NULL, 'Untested', 2, 1, 0, 4755, 0, 0, 0, 0, 2097152, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14078, 14098, 0, 0, 5, 35, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1134, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'Something\'s Amiss', 'Return to Prince Liam Greymane in the Merchant Square.', 'The lieutenant appears to have died from severe wounds.  The prince might want to hear this news.$B$BYou hear the sound of fighting coming from the market.', '', 'It`s you again.  Looks like you`re not one to hide in the face of danger.  Very well, then.', NULL, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', '', '', 890, 878, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15595);
+
+
+*https://wowzealot.com/bugtracker/issue/1593/NPC%3A-Librarian-Garren
+
+
+UPDATE creature_template SET AIName = 'SmartAI' WHERE entry = 25291
+REPLACE INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (25291, 0, 1, 0, 62, 0, 100, 0, 9761, 1, 0, 0, 72, 0, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 'Close gossip after choosing - Librarian Garren');
+REPLACE INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (25291, 0, 0, 0, 62, 0, 100, 0, 9761, 1, 0, 0, 75, 52909, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 'Add water breathing on selection - Librarian Garren');
+
+
+*https://wowzealot.com/bugtracker/issue/1592/Quest%3A-Monitoring-the-Rift%3A-Sundered-Chasm
+
+
+REPLACE INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (25291, 0, 2, 0, 19, 0, 100, 0, 11582, 0, 0, 0, 75, 52909, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 'Add water breathing on quest accept');
+
+
+*https://wowzealot.com/bugtracker/issue/1875/QUEST%3A-He%27s-Holding-Out-on-Us
+
+
+UPDATE quest_template SET PrevQuestId = 26997 WHERE Id = 27064;
+
+
+*https://wowzealot.com/bugtracker/issue/1804/Item-CD%3A-35908
+
+
+UPDATE item_template SET spellcooldown_1 = -1 WHERE entry = 35908;
+
+
+*https://wowzealot.com/bugtracker/issue/1722/Bouldercrag-the-Rockshaper
+
+UPDATE quest_template SET NextQuestId = 12937, NextQuestIdChain = 12937 WHERE Id = 12930;
+UPDATE quest_template SET PrevQuestId = 12930, NextQuestId = 12957, NextQuestIdChain = 12957 WHERE Id = 12931; 
+UPDATE quest_template SET PrevQuestId = 12930, NextQuestId = 12964, NextQuestIdChain = 12964 WHERE Id = 12937;
+UPDATE quest_template SET PrevQuestId = 12931, NextQuestId = 12965, NextQuestIdChain = 12965 WHERE Id = 12957;
+UPDATE quest_template SET PrevQuestId = 12931, NextQuestId = 12978, NextQuestIdChain = 12978 WHERE Id = 12964;
+UPDATE quest_template SET PrevQuestId = 12980, NextQuestId = 12988, NextQuestIdChain = 12988 WHERE Id = 12984;
+UPDATE quest_template SET PrevQuestId = 12988, NextQuestId = 12998, NextQuestIdChain = 12998 WHERE Id = 12993;
+
+*https://wowzealot.com/bugtracker/issue/1695/GoB%3A-Wrecked-Crab-Trap
+
+UPDATE gameobject_template SET flags = 32 WHERE entry = 188364;
+
+
+
+
+
+
+
+
+
+

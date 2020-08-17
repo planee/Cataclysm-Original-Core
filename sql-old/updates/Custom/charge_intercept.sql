@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('20252', 'spell_warr_intercept');

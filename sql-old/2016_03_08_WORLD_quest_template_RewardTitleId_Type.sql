@@ -1,0 +1,2 @@
+ALTER TABLE `quest_template`
+MODIFY  RewardTitleId SMALLINT(3) UNSIGNED NOT NULL;

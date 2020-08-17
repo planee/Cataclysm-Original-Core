@@ -1,0 +1,1 @@
+INSERT INTO `spell_linked_spell` VALUES ('19263', '114406', '2', 'Deterrence - Damage Reduction');

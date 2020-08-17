@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('43987', 'spell_mage_ritual_of_refreshment');

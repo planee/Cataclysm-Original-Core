@@ -1,0 +1,1 @@
+DELETE from gameobject WHERE id = 4484;

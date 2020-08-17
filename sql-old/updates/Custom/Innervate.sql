@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('29166', 'spell_dru_innervate');

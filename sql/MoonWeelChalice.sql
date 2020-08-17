@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `unit_flags`= '33554562', `ScriptName` = 'npc_moonwell_challice' WHERE  `entry` = 53883;

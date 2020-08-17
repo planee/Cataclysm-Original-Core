@@ -1,0 +1,23 @@
+Copyright (C) OMFG.GG (http://www.omfg.gg)
+
+OMFG.GG is a MMORPG Framework based mostly on C++. It is completely
+open source, and is community supported. It is derived
+from Trinity, the Massive Network Game Object Server, and is based on the
+code of that project with extensive changes over time to optimize, improve
+and cleanup the codebase at the same time as improving the ingame mechanics
+and functionality. If you wish to contribute ideas or code please visit
+our site linked below or make pull requests to our github repo at
+https://github.com/omfg/omfg
+
+For further information on the OMFG.GG project, please visit our
+project website at http://www.omfg.gg
+
+Documentation including installation instructions can be found inside
+the doc directory.
+
+SQL files to create the database can be found in the sql directory. Files
+to update your database from an older revision/version can be found in the
+sql/updates directory.
+
+OMFG.GG Requirements
+Platform: Linux, Windows or Mac

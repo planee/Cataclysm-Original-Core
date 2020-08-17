@@ -1,0 +1,1 @@
+UPDATE gameobject_template SET type = 2, flags = 32 WHERE entry = 187851;

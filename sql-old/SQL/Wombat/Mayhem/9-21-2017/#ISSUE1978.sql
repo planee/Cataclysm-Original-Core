@@ -1,0 +1,1 @@
+REPLACE INTO `gossip_menu_option` (`menu_id`, `id`, `option_icon`, `option_text`, `option_id`, `npc_option_npcflag`, `action_menu_id`, `action_poi_id`, `box_coded`, `box_money`, `box_text`, `OptionbroadCastTextId`, `BoxBroadcastTextId`) VALUES (7719, 1, 0, 'Tell me about the demon hunter training grounds at the Ruins of Karabor.', 1, 1, 8394, 0, 0, 0, '', NULL, NULL);

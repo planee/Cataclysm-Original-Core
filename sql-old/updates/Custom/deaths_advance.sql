@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('96268', 'spell_dk_deaths_advance');

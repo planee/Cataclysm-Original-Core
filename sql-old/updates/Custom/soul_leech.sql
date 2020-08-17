@@ -1,0 +1,1 @@
+UPDATE spell_proc_event SET SpellFamilyMask0 = 128, SpellFamilyMask1 = 131200 WHERE entry IN (30293, 30295);

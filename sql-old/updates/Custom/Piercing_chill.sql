@@ -1,0 +1,3 @@
+INSERT INTO `spell_proc_event` (`entry`, `SchoolMask`, `SpellFamilyName`, `SpellFamilyMask0`, `SpellFamilyMask1`, `SpellFamilyMask2`, `procFlags`, `procEx`, `ppmRate`, `CustomChance`, `Cooldown`) VALUES (83156, 0, 0, 0, 0, 0, 65536, 2, 0, 100, 0);
+INSERT INTO `spell_proc_event` (`entry`, `SchoolMask`, `SpellFamilyName`, `SpellFamilyMask0`, `SpellFamilyMask1`, `SpellFamilyMask2`, `procFlags`, `procEx`, `ppmRate`, `CustomChance`, `Cooldown`) VALUES (83157, 0, 0, 0, 0, 0, 65536, 2, 0, 100, 0);
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (83154, 'spell_mage_piercing_chill');

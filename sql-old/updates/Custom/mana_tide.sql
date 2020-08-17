@@ -1,0 +1,1 @@
+UPDATE spell_script_names SET ScriptName = "spell_sha_mana_tide_totem" WHERE spell_id=16191;

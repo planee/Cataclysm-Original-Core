@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('55680', 'spell_pri_glyph_of_prayer_of_healing');

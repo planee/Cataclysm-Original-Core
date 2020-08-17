@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('8042', 'spell_sha_fulmination');

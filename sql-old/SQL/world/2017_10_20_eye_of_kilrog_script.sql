@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES (126, 'spell_warl_eye_of_kilrogg');

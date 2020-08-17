@@ -1,0 +1,1 @@
+UPDATE gameobject_template SET data1=29886 WHERe entry=181622;

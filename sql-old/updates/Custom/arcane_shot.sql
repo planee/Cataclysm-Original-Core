@@ -1,0 +1,1 @@
+UPDATE spell_bonus_data SET ap_bonus = 0.0483 WHERE entry=3044;

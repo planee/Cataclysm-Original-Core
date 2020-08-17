@@ -1,0 +1,1 @@
+INSERT INTO `spell_bonus_data` VALUES ('15407', '0', '0.288', '0', '0', 'Mind flay');

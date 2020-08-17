@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('53', 'spell_rog_backstab');

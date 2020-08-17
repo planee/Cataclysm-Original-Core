@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` VALUES ('47476', 'spell_dk_strangulate');
